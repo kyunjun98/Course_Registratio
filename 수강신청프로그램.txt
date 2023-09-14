@@ -1,0 +1,10 @@
+﻿수강신청프로그램 Created by 권연준
+-- MYSQL 첫시작.txt 실행(계정생성)
+-- 먼저 course.sql 을 course/course 계정에 부여
+
+톰캣 server.xml 에 <Connector URIEncoding="UTF-8" connectionTimeout="20000" port="8181" protocol="HTTP/1.1" redirectPort="8443"/>
+  => 해당포트에 URIEncoding="UTF-8" 추가해주시기 바랍니다.
+     인코딩문제로 한글이 파라미터로 넘어가지 않는 문제를 해결하기 위해서입니다!
+
+p.s 공통스크립트파일은 common.js에 전부 구현했습니다.
+    처음에는 index.html에서 실행해주세요
